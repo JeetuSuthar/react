@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Counter from './topics/Counter'
+import FormDataDisplay from './topics/FormDataDisplay'
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <div>
-    <Counter/>
+    <FormDataDisplay/>
     </div>
   )
 }
